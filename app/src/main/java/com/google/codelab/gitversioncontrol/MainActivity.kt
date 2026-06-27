@@ -27,8 +27,8 @@ class MainActivity : ComponentActivity() {
                         modifier = Modifier.padding(innerPadding)
                     )
                     println("This is the second commit")
+                    this is a good day
 
-                    kafjlhgknfn
                 }
             }
         }
