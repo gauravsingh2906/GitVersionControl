@@ -30,6 +30,7 @@ class MainActivity : ComponentActivity() {
                     println("LOCAL CHANGE")
                     println("Experimental")
                     println("Hello from your friend")
+                    println("CVCxbv")
                 }
             }
         }
