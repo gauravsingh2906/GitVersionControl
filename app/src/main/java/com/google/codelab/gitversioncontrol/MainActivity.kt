@@ -14,6 +14,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.google.codelab.gitversioncontrol.ui.theme.GitVersionControlTheme
+import java.sql.DriverManager.println
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,7 +27,8 @@ class MainActivity : ComponentActivity() {
                         name = "Android",
                         modifier = Modifier.padding(innerPadding)
                     )
-                    println("This is the second commit")println("LOCAL CHANGE")
+                    println("This is the second commit")
+                    println("LOCAL CHANGE")
                     println("Experimental")
                 }
             }
