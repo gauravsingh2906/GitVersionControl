@@ -14,6 +14,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.google.codelab.gitversioncontrol.ui.theme.GitVersionControlTheme
+import java.sql.DriverManager.println
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -29,7 +30,11 @@ class MainActivity : ComponentActivity() {
                     println("This is the second commit")
                     println("Experimental Branch")
                     println("LOCAL CHANGE")
+                    println("LOCAL CHANGE")
+                    println("Futurion branch")
                     println("Experimental")
+                    println("Hello from your friend")
+                    println("CVCxbvjrek")
                 }
             }
         }
