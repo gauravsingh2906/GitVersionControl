@@ -1,0 +1,20 @@
+Index: app/src/main/java/com/google/codelab/gitversioncontrol/MainActivity.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.google.codelab.gitversioncontrol\r\n\r\nimport android.os.Bundle\r\nimport androidx.activity.ComponentActivity\r\nimport androidx.activity.compose.setContent\r\nimport androidx.activity.enableEdgeToEdge\r\nimport androidx.compose.foundation.Image\r\nimport androidx.compose.foundation.layout.Column\r\nimport androidx.compose.foundation.layout.fillMaxSize\r\nimport androidx.compose.foundation.layout.padding\r\nimport androidx.compose.material3.Scaffold\r\nimport androidx.compose.material3.Text\r\nimport androidx.compose.runtime.Composable\r\nimport androidx.compose.ui.Modifier\r\nimport androidx.compose.ui.tooling.preview.Preview\r\nimport com.google.codelab.gitversioncontrol.ui.theme.GitVersionControlTheme\r\n\r\nclass MainActivity : ComponentActivity() {\r\n    override fun onCreate(savedInstanceState: Bundle?) {\r\n        super.onCreate(savedInstanceState)\r\n        enableEdgeToEdge()\r\n        setContent {\r\n            GitVersionControlTheme {\r\n                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->\r\n                    Greeting(\r\n                        name = \"Android\",\r\n                        modifier = Modifier.padding(innerPadding)\r\n                    )\r\n                    println(\"This is the second commit\")println(\"LOCAL CHANGE\")\r\n                    println(\"Experimental\")\r\n                }\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n@Composable\r\nfun Greeting(name: String, modifier: Modifier = Modifier) {\r\n\r\n    Column(\r\n\r\n    ) {\r\n\r\n        Text(\r\n            text = \"Hello $name!\",\r\n            modifier = modifier\r\n        )\r\n\r\n\r\n        Text(text = \"picasso\")\r\n    }\r\n\r\n\r\n}\r\n\r\n@Preview(showBackground = true)\r\n@Composable\r\nfun GreetingPreview() {\r\n    GitVersionControlTheme {\r\n        Greeting(\"Android\")\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/google/codelab/gitversioncontrol/MainActivity.kt b/app/src/main/java/com/google/codelab/gitversioncontrol/MainActivity.kt
+--- a/app/src/main/java/com/google/codelab/gitversioncontrol/MainActivity.kt	(revision 83d7f3ac54867c6ba6c59d1f592e5530c2873310)
++++ b/app/src/main/java/com/google/codelab/gitversioncontrol/MainActivity.kt	(date 1782618129293)
+@@ -26,7 +26,8 @@
+                         name = "Android",
+                         modifier = Modifier.padding(innerPadding)
+                     )
+-                    println("This is the second commit")println("LOCAL CHANGE")
++                    println("This is the second commit")
++                    println("LOCAL CHANGE")
+                     println("Experimental")
+                 }
+             }

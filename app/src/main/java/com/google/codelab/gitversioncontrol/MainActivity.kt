@@ -28,9 +28,13 @@ class MainActivity : ComponentActivity() {
                         modifier = Modifier.padding(innerPadding)
                     )
                     println("This is the second commit")
+                    println("Experimental Branch")
+                    println("LOCAL CHANGE")
                     println("LOCAL CHANGE")
                     println("Futurion branch")
                     println("Experimental")
+                    println("Hello from your friend")
+                    println("CVCxbvjrek")
                 }
             }
         }
